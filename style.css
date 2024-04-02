@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Heebo:wght@100..900&family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Heebo:wght@100..900&family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100vh;
+  background-color: hsl(0, 0%, 95%);
+  flex-wrap: wrap;
+}
+.car_types {
+  max-width: 307px;
+  text-align: left;
+  padding: 35px;
+}
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 28px;
+  line-height: 30px;
+  padding-right: 45px;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 28px;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  margin-top: 28px;
+}
+
+.btn {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  padding: 13px;
+  border: none;
+  border-radius: 30px;
+  width: 140px;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 100px;
+  border: 3px solid hsl(0, 0%, 95%);
+}
+
+.sedan_btn {
+  color: hsl(31, 77%, 52%);
+}
+.suv_btn {
+  color: hsl(184, 100%, 22%);
+}
+.luxury_btn {
+  color: hsl(179, 100%, 13%);
+}
+
+.btn:hover {
+  background-color: transparent;
+  cursor: pointer;
+  color: hsl(0, 0%, 95%);
+}
